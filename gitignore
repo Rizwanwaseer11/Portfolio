@@ -23,6 +23,8 @@ vite-debug.log*
 *.njsproj
 *.sln
 
+.env
+
 
 
 # optional cache folders
