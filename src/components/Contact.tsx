@@ -6,6 +6,7 @@ import { Input } from './ui/input';
 import { Textarea } from './ui/textarea';
 import emailjs from '@emailjs/browser'; // ✅ EmailJS import
 
+
 export function Contact() {
   const [formData, setFormData] = useState({
     name: '',
