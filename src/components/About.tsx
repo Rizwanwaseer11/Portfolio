@@ -77,8 +77,9 @@ export function About() {
             <div className="absolute inset-0 bg-gradient-to-br from-cyan-400 via-purple-500 to-pink-500 rounded-3xl blur-2xl opacity-50 group-hover:opacity-70 transition-opacity"></div>
             <div className="relative bg-white p-2 rounded-3xl">
               <ImageWithFallback
+              loading="lazy"
                 src="/profile.jpg"
-                alt="Profile"
+                alt="E-commerce developer Rizwan Ahmed professional Mernstack developer"
                 className="rounded-2xl w-full h-auto shadow-2xl"
               />
             </div>
