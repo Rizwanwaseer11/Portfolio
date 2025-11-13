@@ -19,9 +19,10 @@ export function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
+   // 🔥 The keys here MUST match the EmailJS template variable names
     const templateParams = {
-      from_name: formData.name,
-      from_email: formData.email,
+      name: formData.name,
+      email: formData.email,
       subject: formData.subject,
       message: formData.message,
     };
